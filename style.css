@@ -1,20 +1,33 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     
 
 }
 .flexible-container{
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 100px;
+    height: 400px;
+    margin-bottom: 150px;
   
+}
+#development-part{
+    background-image: url(./images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:  left;
+}
+#community-part{
+    background-image: url(./images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width{
     width: 40%;
-    padding: 2%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
-    width: 50%;
+    width: 70%;
 }
 #top-heading{
     font-size: 40px;
@@ -39,14 +52,15 @@ h3{
     font-size: 50px;
     text-align: center;
 }
-.clm{
+.mission-column{
     float: left;
     width: 25%;
     margin-right: 80px;
-   padding-left: 20px;
-   border-radius: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-left: 12px;
 }
-.clm img{
+.mission-column img{
     width: 30%;
     height: 50%;
     padding-top: 10px;
@@ -62,16 +76,6 @@ h3{
 #goal{
     background-color: rgba(255, 192, 203, 0.411);
 }
-.development-part{
-    background-image: url(images/shapes/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position:right;
-    margin: 50px;
-    height: 20px;
-  
-  
-}
-
 footer{
     background-color: black;
     color: white;
